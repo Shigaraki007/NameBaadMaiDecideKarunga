@@ -11,9 +11,9 @@ from pyrogram.types import Message, InlineKeyboardMarkup, InlineKeyboardButton
 async def start_(client: Client, message: Message):
     await message.reply_text(
         f"""<b>Hi {message.from_user.first_name}!
-\nI Hello I'm Matrix VC Bot I can play music in your group's voice chat [🎵](https://telegra.ph/file/73d737b83d58322eda419.jpg") 
+\nI Hello I'm Anime Matrix's VC Bot I can play music in Anime Matrix's group's voice chat [🎵](https://telegra.ph/file/199b970849c5c4dd840e1.mp4")
 I'm here for Entertain you.
-\nTo add me in your group please contact my master at Support Group.
+\nTo YOU cant add me in your group please contact my master at Support Group.
 \nHit /help list of available commands.
  </b>""",
       
@@ -22,29 +22,29 @@ I'm here for Entertain you.
             [
                 [
                     InlineKeyboardButton(
-                        "🤴My Master", url="https://t.me/The_Ghost_Hunter",
+                        "🤴My Master", url="https://t.me/DegenerateUSER",
                     )
                 ],
                 [
                     InlineKeyboardButton(
-                        "💬 Group", url="https://t.me/helpcenterbot1"
+                        "💬 Group", url="https://t.me/AnimeGroupMatrix"
                     ),
                     InlineKeyboardButton(
-                        "🔊 My Channel", url="https://t.me/fire_world_entertainment"
+                        "🔊 My Channel", url="https://t.me/anime_channel_am"
                     ),
                     InlineKeyboardButton(
-                        "📚 Loges", url="https://t.me/helpcenterbotloges"
+                        "📚 Loges", url="https://t.me/AnimeGroupMatrix/1624"
                     ),
                 ],
                 [
                 
                     InlineKeyboardButton(
-                        "💾 Source code", url="https://github.com/HuntingBots/MatrixVcBot"
+                        "💾 Source code", url="https://t.me/AnimeGroupMatrix/30676"
                     )
                 ],
                 [
                     InlineKeyboardButton(
-                        "➕ Add To Your Group ➕", url="https://t.me/Matrix_Vcbot?startgroup=true"
+                        "➕ Add To Your Group ➕", url="https://t.me/AnimeGroupMatrix/125847"
                     ) 
                 ]
             ]
@@ -63,7 +63,7 @@ async def start(client: Client, message: Message):
             [
                 [
                     InlineKeyboardButton(
-                        "🔊 Channel", url="https://t.me/fire_world_entertainment"
+                        "🔊 Channel", url="https://t.me/Ongoing_Anime_AM"
                     )
                 ],    
                 [    
@@ -109,7 +109,7 @@ async def help(client: Client, message: Message):
             [
                 [
                     InlineKeyboardButton(
-                        "🔊 Channel", url="https://t.me/fire_world_entertainment"
+                        "🔊 Channel", url="https://t.me/ecchi_Animee"
                     )
                 ]
             ]
