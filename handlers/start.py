@@ -30,7 +30,7 @@ async def start_(client: Client, message: Message):
                         "💬 Group", url="https://t.me/AnimeGroupMatrix"
                     ),
                     InlineKeyboardButton(
-                        "🔊 My Channel", url="https://t.me/anime_channel_am"
+                        "🔊 My Channel", url="https://t.me/Download_Animes"
                     ),
                     InlineKeyboardButton(
                         "📚 Loges", url="https://t.me/AnimeGroupMatrix/1624"
@@ -63,7 +63,7 @@ async def start(client: Client, message: Message):
             [
                 [
                     InlineKeyboardButton(
-                        "🔊 Channel", url="https://t.me/Ongoing_Anime_AM"
+                        "🔊 Channel", url="https://t.me/DownloadOngoing"
                     )
                 ],    
                 [    
