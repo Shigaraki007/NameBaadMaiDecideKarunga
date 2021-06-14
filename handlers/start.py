@@ -11,9 +11,9 @@ from pyrogram.types import Message, InlineKeyboardMarkup, InlineKeyboardButton
 async def start_(client: Client, message: Message):
     await message.reply_text(
         f"""<b>Hi {message.from_user.first_name}!
-\nI Hello I'm Anime Matrix's VC Bot I can play music in Anime Matrix's group's voice chat [🎵](https://telegra.ph/file/199b970849c5c4dd840e1.mp4")
-I'm here for Entertain you.
-\nTo YOU cant add me in your group please contact my master at Support Group.
+\n ♦️ Hello I'm Anime Matrix's VC Bot I can play music in Anime Matrix's group's voice chat 🎵 [🎵](https://telegra.ph/file/199b970849c5c4dd840e1.mp4")
+🔆 I'm here for your service 
+\n ⚡ You can't add me in your groups , please contact my master at Support Group first.
 \nHit /help list of available commands.
  </b>""",
       
